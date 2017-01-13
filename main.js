@@ -21,7 +21,7 @@ $(document).ready(function () {
                     $("img").click(function () {
                         var link = $(this).attr("src");
                         $(".modal-body").html("<img src=" + link + "/>");
-                        $("#mymodal").modal();
+                        $("#myModal").modal();
 
                     });
                 })
