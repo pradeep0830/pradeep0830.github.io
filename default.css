@@ -1,8 +1,8 @@
 
 #top{
-height:40% !important;
-width:50%;
-  float:center;
+
+width:100%;
+ border-radius:100%;
 background-color: #87CEEB;
 }
 #search{
