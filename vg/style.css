@@ -1,0 +1,97 @@
+.top{
+    width: 100% !important;
+    background-color: cadetblue;
+    height: 30% !important;
+        
+}
+.carousel-size{
+    width: 100% !important;
+    
+}
+.size{
+    width: 100%;
+    
+    background-color: aliceblue;
+}
+.title{
+       margin-right: 20%;
+    margin-left: 150%;
+    width: 47%;
+}
+.position{
+    margin-left: 20% !important;
+    
+}
+.one{
+   margin-left: 45% !important;
+    width: 10% !important;
+    
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+
+
+.third{
+    
+        width: 100%;
+     height: 100%;
+}
+
+
+#head{
+    text-align: center;
+    
+}
+.academy{
+   
+    width: 35%;
+    padding: 10px;
+    float: left;
+    background-color: burlywood;
+    margin: 20px;
+    margin-left: 10% !important;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold !important;
+    
+    
+}
+.four{
+    width: 100%;
+    height: inherit;
+}
+.image{
+    float: left;
+    margin-left: 10%;
+    padding: 20px;
+    width: 30%;
+}
+
+.but1{
+    font-size: 18px;
+    margin-top: 4%;
+    margin-left: 45%;
+  
+}
+.image h3{
+    text-decoration: underline;
+}
+
+.news{
+    margin-top: 60%;
+    margin-left: 15%;
+    text-decoration: underline;
+    text-decoration-line: underline;
+}
+.news1{
+    margin-left: 12%;
+}
+.ten{
+    width: 30%;
+    margin-left: 12%;
+}
+.lect{
+    color:skyblue;
+}
