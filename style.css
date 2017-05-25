@@ -1,7 +1,7 @@
 .top{
     width: 100% !important;
     background-color: cadetblue;
-    height: 30% !important;
+    height: auto !important;
         
 }
 .carousel-size{
@@ -36,7 +36,7 @@
 .third{
     
         width: 100%;
-     height: 100%;
+     height: auto;
 }
 
 
@@ -60,7 +60,7 @@
 }
 .four{
     width: 100%;
-    height: inherit;
+    height: auto;
 }
 .image{
     float: left;
