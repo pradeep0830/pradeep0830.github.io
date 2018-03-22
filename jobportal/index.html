@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Recruite Pro</title>
+    <!-- Bootstrap -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS-->
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link href="assets/animate/animate.css" rel="stylesheet">
+    <!-- Owl Carousel -->
+    <link href="assets/owl-carousel/css/owl.carousel.css" rel="stylesheet">
+    <link href="assets/owl-carousel/css/owl.theme.css" rel="stylesheet">
+    <!-- magnific Css -->
+    <link href="assets/css/magnific-popup.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <style>
+        .search-bg,
+        .user,
+        .browse-category h3,
+        .btn-one,
+        .footer-section .form input.bttn,
+        .copyright-wrapper,
+        #scrollUp,
+        .banner-wrapper .fade-carousel .slide-arrows .carousel-control span:hover {
+            background-color: #3399ff;
+        }
+
+        .login a {
+            background-color: #3399ff;
+        }
+
+        .navbar-default .navbar-nav li.active>a {
+            border-bottom: 1px solid #fff;
+        }
+
+        .navbar-default .navbar-nav li>a:hover {
+            border-bottom: 1px solid #fff;
+        }
+
+        .dropdown-menu li>a:hover {
+            background-color: #3399ff !important;
+        }
+
+
+
+        .latest-jobs-wrapper h2 span,
+        .banner-wrapper .hero h1 span,
+        .popular-search-wrapper h2 span,
+        .footer-section .single-secton h3 {
+            color: #3399ff;
+        }
+
+        .footer-section ul li a {
+            border: 1px solid #3399ff;
+        }
+
+    </style>
+    <!-- Loader -->
+    <div id="dvLoading">
+    </div>
+    <!-- Header Start -->
+    <header class="wow fadeInDown" data-offset-top="197" data-spy="affix">
+        <div class="logo-wrapper">
+            <!-- Logo -->
+            <div class="container">
+                <div class="row">
+                    <!-- Logo -->
+                    <div class="col-sm-12 col-md-3 hidden-xs"> <a href="index.html"><img src="images/logo.png" alt="Recruite Pro"/></a> </div>
+                    <!-- Navigation -->
+                    <div class="col-sm-12 col-md-9">
+                        <nav class="navbar navbar-default pull-right">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Recruite Pro"/></a> </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li class="dropdown"><a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GOVT </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="about-us.html">SSC</a></li>
+                                            <li><a href="faq.html">BANK</a></li>
+                                            <li><a href="coming-soon.html">Coming Soon</a></li>
+                                            <li><a href="404.html">404</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown"><a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Jntu updates </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="current-jobs.html">JNTUH UPDATES</a></li>
+                                            <li><a href="apply-job.html">JNTUK UPDATES</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- <li class="dropdown"><a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                        </ul>
+                                    </li>-->
+                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <!-- /.navbar-collapse -->
+                            <div class="user"><img src="images/user-icon.png" alt=""></div>
+                            <div class="login pull-right hidden-xs"> <a href="#">Post a Job</a></div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+    <!-- Banner Wrapper Start -->
+    <div class="banner-wrapper">
+        <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+            <!-- Overlay -->
+            <div class="overlay"></div>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item slides active">
+                    <div class="slide-1"><img src="images/banner1.jpg" alt="Recruite Pro" /></div>
+                    <div class="hero">
+                        <h1>We offer <span>1,259</span> job vacancies right now!</h1>
+                        <p>Find your desire one in a minute</p>
+                    </div>
+                </div>
+                <div class="item slides">
+                    <div class="slide-2"><img src="images/banner2.jpg" alt="Recruite Pro" /></div>
+                    <div class="hero">
+                        <h1>We offer <span>1,259</span> job vacancies right now!</h1>
+                        <p>Find your desire one in a minute</p>
+                    </div>
+                </div>
+                <div class="item slides">
+                    <div class="slide-3"><img src="images/banner3.jpg" alt="Recruite Pro" /></div>
+                    <div class="hero">
+                        <h1>We offer <span>1,259</span> job vacancies right now!</h1>
+                        <p>Find your desire one in a minute</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-arrows"><a class="left carousel-control" href="#bs-carousel" data-slide="prev"><span class="transition3s glyphicon glyphicon-chevron-left fa fa-angle-left"></span></a> <a class="right carousel-control" href="#bs-carousel" data-slide="next"><span class="transition3s glyphicon glyphicon-chevron-right fa fa-angle-right"></span></a></div>
+        </div>
+    </div>
+    <!-- Banner Wrapper End -->
+    <!-- Professional Search Start -->
+    <div class="professional-search">
+        <div class="container">
+            <div class="search-bg">
+                <h2>Search For Professionals</h2>
+                <div class="form">
+                    <div class="form-group">
+                        <!-- <input class="form-control" id="professionals" placeholder="By Location" type="text">-->
+                        <select id="selectLocation" class="form-control">
+            <option>By location</option>
+            <option>Hyderabad</option>
+            <option>Chennai</option>
+            <option>Bangalore </option>
+            <option>Pune</option>
+            <option>Mumbai</option>
+            <option>Delhi</option>
+            <option>Others</option>
+          </select>
+                    </div>
+                    <div class="form-group">
+                        <!--<input class="form-control" id="anylocation" placeholder="By Experience" type="text">-->
+                        <select id="selectLocation" class="form-control">
+            <option>By Experience</option>
+            <option>0</option>
+            <option>1</option>
+            <option>2 </option>
+            <option>3</option>
+            <option>4</option>
+            <option>5+</option>
+          </select>
+                    </div>
+                    <div class="form-group">
+                        <select id="selectLocation" class="form-control">
+            <option>By Skills</option>
+            <option>JAVA</option>
+            <option>DOT NET</option>
+            <option>UI </option>
+            <option>PHP</option>
+            <option>ANDROID</option>
+            <option>IOS</option>
+          </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Professional Search End -->
+
+
+    <!-- Latest jobs Wrapper Start -->
+    <div class="latest-jobs-wrapper">
+        <div class="container">
+            <div class="title">
+                <h2>Latest <span>Jobs</span></h2>
+                <h3>Here you can see</h3>
+            </div>
+        </div>
+
+        <!-- ad 300x600-->
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <script type="text/javascript" language="javascript">
+                var aax_size = '300x600';
+                var aax_pubname = 'pradeep0830-21';
+                var aax_src = '302';
+
+            </script>
+            <script type="text/javascript" language="javascript" src="http://c.amazon-adsystem.com/aax2/assoc.js"></script>
+
+        </div>
+
+        <!--ad 300x600 ends-->
+
+        <div class="col-lg-7  col-md-7 col-sm-7">
+            <div class="single-jobs">
+                <!--<i class="fa fa-twitter"></i>-->
+
+                <div class="job-heading col-md-8">
+                    <h3>Senior front-end developer</h3>
+                    <p>Tech Mahendra, Permanent - 22/03/2018</p>
+                </div>
+                <div class="our-location color1 "> <span class="fa fa-map-marker" aria-hidden="true"></span>
+                    <div class="location-content">
+                        <h3>Hyderabad</h3>
+                        <span>more info</span> </div>
+                </div>
+            </div>
+            <div class="single-jobs">
+                <!--<i class="fa fa-facebook"></i>-->
+                <div class="job-heading">
+                    <h3>Android developer</h3>
+                    <p>Cognizant, Permanent - 21/03/2018</p>
+                </div>
+                <div class="our-location color2"> <span class="fa fa-map-marker" aria-hidden="true"></span>
+                    <div class="location-content">
+                        <h3>Chennai</h3>
+                        <span>more info</span> </div>
+                </div>
+            </div>
+            <div class="single-jobs">
+                <!--<i class="fa fa-google-plus"></i>-->
+                <div class="job-heading">
+                    <h3>PHP developer</h3>
+                    <p>Innoapps India, Permanent - 22/03/2018</p>
+                </div>
+                <div class="our-location color3"> <span class="fa fa-map-marker" aria-hidden="true"></span>
+                    <div class="location-content">
+                        <h3>Banglore</h3>
+                        <span>more info</span> </div>
+                </div>
+            </div>
+            <div class="single-jobs">
+                <!--<i class="fa fa-linkedin"></i>-->
+                <div class="job-heading">
+                    <h3>IOS developer</h3>
+                    <p>Esac Technologies, Permanent - 20/03/2018</p>
+                </div>
+                <div class="our-location color4"> <span class="fa fa-map-marker" aria-hidden="true"></span>
+                    <div class="location-content">
+                        <h3>Pune</h3>
+                        <span>more info</span> </div>
+                </div>
+            </div>
+            <div class="single-jobs last">
+                <!--<i class="fa fa-skype"></i>-->
+                <div class="job-heading">
+                    <h3>Manual Testing developer</h3>
+                    <p>Dell, Permanent - 22/03/2018</p>
+                </div>
+                <div class="our-location color5"> <span class="fa fa-map-marker" aria-hidden="true"></span>
+                    <div class="location-content">
+                        <h3>Mumbai</h3>
+                        <span>more info</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ad 160 x 600  -->
+        <div class="col-lg-2  col-md-2 col-sm-2">
+            <script type="text/javascript" language="javascript">
+                var aax_size = '160x600';
+                var aax_pubname = 'pradeep0830-21';
+                var aax_src = '302';
+
+            </script>
+            <script type="text/javascript" language="javascript" src="http://c.amazon-adsystem.com/aax2/assoc.js"></script>
+        </div>
+        <!-- ad ends 160 x 600-->
+
+    </div>
+    <!-- Latest jobs Wrapper End -->
+
+    <!-- Popular Search Wrapper Start -->
+    <div class="popular-search-wrapper">
+        <div class="container">
+            <div class="title">
+                <h2>Popular <span>Searches</span></h2>
+                <h3>Here you can see</h3>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-12">
+                    <div class="browse-category">
+                        <h3>BROWSE BY CATEGORIES</h3>
+                        <ul>
+                            <li>Marketing (174)</li>
+                            <li>Engineering (174)</li>
+                        </ul>
+                        <ul>
+                            <li>Teaching & Education (174)</li>
+                            <li>Software & Web (174)</li>
+                        </ul>
+                        <ul>
+                            <li>Writing (174)</li>
+                            <li>Sales & BD (174)</li>
+                        </ul>
+                        <ul>
+                            <li>Telemarketing (174)</li>
+                            <li>Customer Service (174)</li>
+                        </ul>
+                        <ul>
+                            <li>Administration (174)</li>
+                            <li>Creative Design (174)</li>
+                        </ul>
+                        <ul>
+                            <li>Creative Design (174)</li>
+                            <li>Accounts & Finance (174)</li>
+                        </ul>
+                        <ul class="last">
+                            <li>SEO (174)</li>
+                            <li>Web Design (174)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-2 hidden-xs hidden-sm">
+                    <div class="popular-search-img"><img src="images/popular-search-img.png" alt=""></div>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <div class="browse-city">
+                        <h3>BROWSE BY CITIES</h3>
+                        <ul>
+                            <li>New York</li>
+                            <li>Bessemer</li>
+                            <li>Dothan</li>
+                        </ul>
+                        <ul>
+                            <li>Alexander City</li>
+                            <li>Birmingham</li>
+                            <li>Enterprise</li>
+                        </ul>
+                        <ul>
+                            <li>Enterprise</li>
+                            <li>Chickasaw</li>
+                            <li>Eufaula</li>
+                        </ul>
+                        <ul>
+                            <li>Anniston</li>
+                            <li>Clanton</li>
+                            <li>Anchorage</li>
+                        </ul>
+                        <ul>
+                            <li>Athens</li>
+                            <li>Cullman</li>
+                            <li>Cordova</li>
+                        </ul>
+                        <ul>
+                            <li>Atmore</li>
+                            <li>Decatur</li>
+                            <li>Fairbanks</li>
+                        </ul>
+                        <ul class="last">
+                            <li>Auburn</li>
+                            <li>Demopolis</li>
+                            <li>Haines</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center"> <a href="#" class="btn-one">Browse All Categories</a></div>
+        </div>
+    </div>
+    <!-- Popular Search Wrapper End -->
+
+    <div class="col-lg-3"></div>
+    <div class="col-lg-7">
+        <script type="text/javascript" language="javascript">
+            var aax_size = '728x90';
+            var aax_pubname = 'pradeep0830-21';
+            var aax_src = '302';
+
+        </script>
+        <script type="text/javascript" language="javascript" src="http://c.amazon-adsystem.com/aax2/assoc.js"></script>
+    </div>
+
+    <div class="col-lg-2"></div>
+
+
+    <!-- Footer styles Start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-section">
+                    <div class="col-sm-4">
+                        <div class="single-secton">
+                            <h3>Subscribe Our Newsletter</h3>
+                            <div class="form">
+                                <div class="form-group">
+                                    <input placeholder="Enter your Email" id="exampleInputName1" class="form-control first" type="text">
+                                </div>
+                                <input class="bttn" value="Subscribe" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="single-secton">
+                            <h3>Follow us on</h3>
+                            <ul>
+                                <li class="facebook"><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
+                                <li class="twitter"><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                                <li class="linkedin"><a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a></li>
+                                <li class="google"><a href="javascript:void(0)"><i class="fa fa-google-plus"></i></a></li>
+                                <li class="youtube"><a href="javascript:void(0)"><i class="fa fa-youtube-play"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="single-secton">
+                            <h3>Need Help ?</h3>
+                            <p><i class="fa fa-phone"></i> CALL US : <span>1800-0000-1234</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- Footer styles End -->
+    <!-- Copyright styles End -->
+    <div class="copyright-wrapper">
+        <div class="container">
+            <p>&copy; Copyright
+                <script type="text/javascript">
+                    var d = new Date();
+                    document.write(d.getFullYear());
+
+                </script>
+                Recruite Pro | All Rights Reserved.</p>
+        </div>
+    </div>
+    <!-- Copyright styles End -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/jquery/jquery-3.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/jquery/plugins.js"></script>
+    <script src="assets/jquery/jquery.animateNumber.min.js"></script>
+    <script src="assets/jquery/jquery.magnific-popup.min.js"></script>
+    <script src="assets/owl-carousel/js/owl.carousel.js"></script>
+    <script src="assets/wow/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83282272-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments)
+        };
+        gtag('js', new Date());
+
+        gtag('config', 'UA-83282272-3');
+
+    </script>
+</body>
+
+<!-- Mirrored from sbtechnosoft.com/recruitepro/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Mar 2018 16:32:09 GMT -->
+
+</html>
