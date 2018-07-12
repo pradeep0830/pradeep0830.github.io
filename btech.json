@@ -1,55 +1,55 @@
 [{
         time: '12:00 AM',
-        "speed": '169'
+        speed: '169'
                     },
     {
         time: '02:00 AM',
-        "speed": '169'
+        speed: '169'
                     },
     {
         time: '04:00 AM',
-        "speed": '169'
+        speed: '169'
                     },
     {
         time: '06:00 AM',
-        "speed": '169'
+        speed: '169'
                     },
     {
         time: '08:00 AM',
-        "speed": '20'
+        speed: '20'
 
                     },
     {
         time: '10:00 AM',
-        "speed": '56'
+        speed: '56'
                     },
     {
         time: '12:00 PM',
-        "speed": '156'
+        speed: '156'
                     },
     {
         time: '02:00 PM',
-        "speed": '125'
+        speed: '125'
                     },
     {
         time: '04:00 PM',
-        "speed": '158'
+        speed: '158'
                     },
     {
         time: '06:00 PM',
-        "speed": '166'
+        speed: '166'
                     },
     {
         time: '08:00 PM',
-        "speed": '169'
+        speed: '169'
                     },
     {
         time: '10:00 PM',
-        "speed": '169'
+        speed: '169'
                     },
     {
         time: '11:59 PM',
-        "speed": '169'
+        speed: '169'
                     },
     {
         time: '00:00 AM',
